@@ -2,7 +2,7 @@
 
 def cancellation(list, stop_word):
     '''
-    Copy elements one by one from input_list into output_list.
+    Copy elements one by one from input_list into output_list. 
     If one of the elements is equal to the stop_word, then stop the function,
     and return what you have so far.
     '''
@@ -35,3 +35,4 @@ def my_average(input_list):
     for x in input_list:
         sumofvalues=sumofvalues+x
     return sumofvalues/len(input_list)
+
