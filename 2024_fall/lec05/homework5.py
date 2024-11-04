@@ -48,9 +48,7 @@ def sine_and_cosine(t_start, t_end, t_steps):
     x (array of length t_steps): cos(t)
     y (array of length t_steps): sin(t)
     '''
-    # change these lines
     t = np.linspace(t_start, t_end, t_steps)
     x = np.cos(t)
     y = np.sin(t)
-    # end changes here
     return t, x, y
